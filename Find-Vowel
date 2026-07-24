@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Input a character: ");
+        char le;
+        if (le == 'a' || le == 'e' || le == 'i' || le == 'o' || le == 'u') {
+            System.out.println("Vowel");
+        } else {
+            System.out.println("No Vowel");
+        }
+
+        sc.close();
+    }
+}
